@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.409"
+  version: "0.410"
 
 package:
   name: hwdata
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/vcrhonek/hwdata/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 23006accc0f931dd5187d0307a57d0744e2b8feb85e73c37bc0f5229fb31eadd
+  sha256: 2864b061b179b8ad8cb6a7339ca07678240a183d9cedce8677a4950acaf798e0
 
 build:
   number: 0
